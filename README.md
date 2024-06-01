@@ -15,12 +15,12 @@ This dataset is an enhanced version of the original "Semantic Segmentation of Ae
 ## Improvements
 
 1. **Cropping**: Images have been cropped to 128x128 pixels, both for the original images and their corresponding masks, making them suitable for training small models.
-2. **Split Masks**: The original masks were RGB images with different colors representing different classes. In this improved version, masks have been split into separate images for each class, organized into dedicated folders for easier access and processing.
+2. **Split Masks**: The original masks were RGB images with different colours representing different classes. In this improved version, masks have been split into separate images for each class, organised into dedicated folders for easier access and processing.
 
 ## Dataset Structure
 
-The dataset is organized as follows:
-
+The dataset is organised as follows:
+```
 aerial-semantic-segmentation-datasets/
 ├── images/
 │ ├── im_000000.png
@@ -35,6 +35,7 @@ aerial-semantic-segmentation-datasets/
 │ └── ...
 ├── README.md
 └── LICENSE.txt
+```
 
 ## Usage
 
